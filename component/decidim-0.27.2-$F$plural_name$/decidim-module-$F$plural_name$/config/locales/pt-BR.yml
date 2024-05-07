@@ -1,0 +1,34 @@
+---
+pt-BR:
+  activerecord:
+    models:
+      decidim/$plural_name$/$singular_name$:
+        one: $Singular_name$
+        other: $Plural_name$
+  decidim:
+    admin_log:
+      $singular_name$:
+        update: "%{user_name} atualizou a $singular_name$ %{resource_name} em %{space_name}"
+    components:
+      $plural_name$:
+        name: $Singular_name$
+        settings:
+          global:
+            announcement: Anúncio
+          step:
+            announcement: Anúncio
+    $plural_name$:
+      admin:
+        models:
+          components:
+            body: Corpo
+        $plural_name$:
+          edit:
+            save: Atualizar
+            title: Editar $singular_name$
+          update:
+            invalid: Ocorreu erros ao salvar a $singular_name$.
+            success: $Singular_name$ salva com sucesso.
+      home:
+        sub_hero:
+          register_title: Cadastre-se para criar uma conta

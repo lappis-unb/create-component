@@ -1,0 +1,36 @@
+---
+en:
+  activerecord:
+    models:
+      decidim/$plural_name$/$singular_name$:
+        one: $Singular_name$
+        other: $Plural_name$
+  decidim:
+    admin_log:
+      $singular_name$:
+        update: "%{user_name} updated the %{resource_name} $singular_name$ in %{space_name}"
+    components:
+      $plural_name$:
+        name: $Singular_name$
+        settings:
+          global:
+            announcement: Announcement
+          step:
+            announcement: Announcement
+    $plural_name$:
+      admin:
+        models:
+          components:
+            body: Body
+        $plural_name$:
+          edit:
+            save: Update
+            title: Edit $singular_name$
+          update:
+            invalid: There was a problem saving the $singular_name$.
+            success: $Singular_name$ successfully saved.
+      home:
+        hero:
+          participate_title: Participate in the platform's processes
+        sub_hero:
+          register_title: Sign up to create an account
